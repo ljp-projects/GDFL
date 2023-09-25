@@ -1,0 +1,5 @@
+function gdfl {
+    lua transpile.lua $1 || echo "Failed."
+}
+
+mv .gdfl ~/
