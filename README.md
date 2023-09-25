@@ -36,3 +36,7 @@ It compiles to JSON.
 After you have downloaded the GDFL kit, run `chmod +x .gdfl` in the terminal. Then run `.gdfl`.
 
 To transpile a file use `gdfl path/to/file.gdfl`. It will create a JSON file with the same name. **This will not work if you haven't run the above commands.**
+
+You can also run the transpile.lua file.
+
+We have chosen Lua because it is lightweight, easy to write and fast.
